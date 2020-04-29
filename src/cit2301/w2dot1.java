@@ -14,7 +14,8 @@ public class w2dot1 {
         System.out.print("Enter degree in celcius:");
         celcius= input.nextDouble();
         System.out.printf("the celcius is "+ "%.2f%n",celcius);
-        fahrenhiet= (9.0/5) * celcius + 32;
-        System.out.printf("%.2f %s %.2f %s",celcius,s1,fahrenhiet,s2);
+        fahrenhiet= (9/5.0) * celcius + 32;
+        System.out.printf("%.2f %s %.2f %s%n",celcius,s1,fahrenhiet,s2);
+        System.out.print("Goodbye");
     }
 }
