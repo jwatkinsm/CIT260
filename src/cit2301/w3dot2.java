@@ -10,6 +10,9 @@ public class w3dot2 {
         int days;
         //retrieve inputs
         Scanner input = new Scanner(System.in);
+        //program details
+        System.out.println("Given a year and a month in that year, this program will tell you\n" +
+                "the number of days in that month.");
         //retrieve year
         System.out.print("Enter the year: ");
         year= input.nextInt();
