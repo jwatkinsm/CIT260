@@ -13,11 +13,11 @@ public class w4dot2 {
         String name;
         String s1= "Pay Stub for ";
         String s2= "Hours worked: ";
-        String s3= "Hourly Wage: ";
-        String s4= "Gross pay: ";
-        String s5= "State Tax Withheld: ";
-        String s6= "Federal Tax Withheld: ";
-        String s7= "Net pay: ";
+        String s3= "Hourly Wage: $";
+        String s4= "Gross pay: $";
+        String s5= "State Tax Withheld: $";
+        String s6= "Federal Tax Withheld: $";
+        String s7= "Net pay: $";
         //program details
         System.out.println("Given your name, hours worked, and hourly wage, this program calculates your \n" +
                 "gross pay, state withholding tax, federal withholding tax, and your net pay.\n" +
@@ -43,6 +43,7 @@ public class w4dot2 {
 
         //estimate net worth
         netPay= gross - stateTax - fedTax;
+        //output
                         //line1   line2   line3    line4    line5    line6    line7
         System.out.printf("%s%s %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f",s1,name,s2,hours,s3,hrWage,s4,gross,s5,stateTax,s6,fedTax,s7,netPay);
     }
