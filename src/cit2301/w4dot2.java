@@ -46,5 +46,6 @@ public class w4dot2 {
         //output
                         //line1   line2   line3    line4    line5    line6    line7
         System.out.printf("%s%s %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f %n%s%.2f",s1,name,s2,hours,s3,hrWage,s4,gross,s5,stateTax,s6,fedTax,s7,netPay);
+        System.out.print("Goodbye");
     }
 }
