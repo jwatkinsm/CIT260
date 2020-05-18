@@ -17,7 +17,7 @@ public class w4d0t1 {
         //string length
         if(hex.length() != 1){
             System.out.println("YOu must enter exactly one chracter.");
-            System.exit(1);
+
         }
         //make sure digits are in caps
         char hexCh =Character.toUpperCase(hex.charAt(0));
@@ -77,5 +77,6 @@ public class w4d0t1 {
         }else{
             System.out.print(hexCh +" is not a valid hexadecimal digit");
         }
+        System.out.print("Goodbye");
     }
 }
