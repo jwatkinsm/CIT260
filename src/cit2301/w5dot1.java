@@ -3,7 +3,7 @@ package cit2301;
 public class w5dot1 {
     public static void main(String[] args) {
         //program info
-        System.out.println("THis program is going to show you kilograms equivliant in Pounds.");
+        System.out.println("This program is going to show you kilograms equivliant in Pounds.");
         //table headings
         System.out.println("\tkilograms\tPounds\n" +
                 "-----------------------------");
