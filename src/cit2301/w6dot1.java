@@ -40,7 +40,7 @@ public class w6dot1 {
         else{
             System.out.println(" Investment must be greater than Zero");
         }
-
+        System.out.print("Goodbye");
 
     }//method for futureValue variable and calculate dividend earned per year
     public static double FutureValue(double investment, double interest, int years){
