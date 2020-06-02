@@ -11,8 +11,8 @@ public class w6dot1 {
         int years;
         //program info
         System.out.println("Given an investment amount and an annual interest rate, this program \n" +
-                            "will calculate the future value of the investment for a period of\n" +
-                            "ten years.");
+                "will calculate the future value of the investment for a period of\n" +
+                "ten years.");
         //input investment
         System.out.print("Enter the a positive, non-zero value for the investment:");
         invested= input.nextDouble();
@@ -24,7 +24,7 @@ public class w6dot1 {
             if(interestRate >=0 && interestRate <=100){
                 //table head
                 System.out.println("Years\tFuture Value");
-               //Calculate monthly compound interest gain after each year
+                //Calculate monthly compound interest gain after each year
                 for(years =1; years <=10; years++){
                     double futureValue = FutureValue(invested ,interestRate,years);
                     //display table results
