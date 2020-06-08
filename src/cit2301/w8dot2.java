@@ -16,7 +16,7 @@ public class w8dot2 {
      * @param args outputs date and time with the given milliseconds
      */
     public static void main(String[] args) {
-        //variables
+        //objects
         Date date = new Date(100000L);
         Date date1= new Date(1000000L);
         Date date2= new Date(10000000L);
