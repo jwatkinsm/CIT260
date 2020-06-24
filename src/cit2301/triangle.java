@@ -35,8 +35,8 @@ public class triangle extends GeometricObject {
         return side3;
     }
 
-    public double getArea()
-    {
+    @Override
+    public double getArea() {
         double s = (side1 + side2 + side3) / 2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
@@ -50,6 +50,6 @@ public class triangle extends GeometricObject {
     public String toString()
     {
         return "Triangle: side1 = " + side1 + " side2 = " + side2 + " side3 = " + side3 +"\n"
-    + super.toString() +"\n"+ getArea();
+    + super.toString() +"\n";
     }
 }
