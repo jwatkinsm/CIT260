@@ -4,21 +4,21 @@ package cit2301;
  * UML
  * Class: MyPoint
  * Variables:
- *          xPoint: int
- *          yPoint: int
+ *        -  xPoint: int
+ *         - yPoint: int
  * objects:
- *          MyPoint()
- *          MyPoint(xPoint: int, yPoint: int)
+ *         + MyPoint()
+ *         + MyPoint(xPoint: int, yPoint: int)
  * Setters:
- *          setxPoint(): int
- *          setyPoint(): int
+ *         + setxPoint(): int
+ *         + setyPoint(): int
  * Getters:
- *          getxPoint(): int
- *          getyPoint(): int
+ *          +getxPoint(): int
+ *          +getyPoint(): int
  * Methods:
- *          distance(p: mypoint): double
- *          distance(p1: point, p2: mypoint): double
- *          distance(xCoord: int, yCoord: int): double
+ *         + distance(p: mypoint): double
+ *         + distance(p1: point, p2: mypoint): double
+ *          +distance(xCoord: int, yCoord: int): double
  */
   public class MyPoint {
 //variables
