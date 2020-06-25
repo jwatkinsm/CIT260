@@ -1,7 +1,24 @@
 package cit2301;
 
 /**
- *
+ *variables:
+ *          -side1: double
+ *          -side2: double
+ *          -side3: double
+ * constructors:
+ *          +triangle()
+ *          +triangle(side1: double,side2: double,side3: double,color: String,filled: boolean)
+ * getters setters:
+ *          +getSide1(): double
+ *          +getSide2(): double
+ *          +getSide3(): double
+ *          +setSide1(): void
+ *          +setSide2(): void
+ *          +setSide3(): void
+ * methods:
+ *          +getArea(): double
+ *          +getPerimeter(): double
+ *          +toString(): String
  */
 public class triangle extends GeometricObject {
     private double side1 = 1.0;
@@ -33,6 +50,18 @@ public class triangle extends GeometricObject {
     public double getSide3()
     {
         return side3;
+    }
+
+    public void setSide1(double side1) {
+        this.side1 = side1;
+    }
+
+    public void setSide2(double side2) {
+        this.side2 = side2;
+    }
+
+    public void setSide3(double side3) {
+        this.side3 = side3;
     }
 
     @Override
