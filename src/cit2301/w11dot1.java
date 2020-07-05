@@ -13,7 +13,7 @@ public class w11dot1 {
         int[] intergers = new int[10];
         double sum =0;
         double average =0;
-        //system info prompt
+        //system info prompt //
         System.out.println("This program gets ten numbers from the user, and\n" +
                 "computes and displays the average.\n");
         System.out.println("Please enter ten integer values");
